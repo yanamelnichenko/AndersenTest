@@ -1,0 +1,12 @@
+Task 2:
+
+Can this given bracket sequence [((())()(())]] be considered correct
+
+To my opinion, it cannot be considered correct from a programming perspective, as in a software development, it should be one opening bracket and one closing bracket of each type
+from the opposite part of the expression:
+Here is the example:
+[{()}]
+So, when it comes to the question, I would suggest that it can be fixed like this:
+[(())()(())] - 2nd and the bracket before the last one are removed 
+[[(())()(())]] - 2nd bracket is replaced by "("
+[((())()(()))] - bracket before the last one is replaced by ")" 
